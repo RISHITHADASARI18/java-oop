@@ -1,5 +1,7 @@
-public class palindrome {
-    public static void main(String[] args) {
+public class palindrome 
+{
+    public static void main(String[] args)
+    {
         int num=323,rem=0,rev=0,temp;
         temp=num;
         while(num>0)
@@ -13,5 +15,4 @@ public class palindrome {
         else
             System.out.println("not a palindrome");
     }
-    
 }
